@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+- 🔭 I’m currently working on [CopEye](https://github.com/iaglourenco/CopEye)
+- 🌱 I’m currently learning Python, Machine Learning, Networks, and more...
+- 📫 How to reach me: [iagojlourenco@gmail.com](mailto:iagojlourenco@gmail.com)
+
+- 😄 I’m very curious and always open for new knowledge and networking. Contact me!✌ Peace!
+
 <!--
 **iaglourenco/iaglourenco** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
