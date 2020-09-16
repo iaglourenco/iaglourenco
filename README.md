@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on [CopEye](https://github.com/iaglourenco/CopEye)
+- 🔭 I’m currently working on [CopEye](https://github.com/iaglourenco/CopEye) and [AppPolicial](https://github.com/fabioirokawa/AppPolicial)
 - 🌱 I’m currently learning Python, Machine Learning, Networks, and more...
 - 📫 How to reach me: [iagojlourenco@gmail.com](mailto:iagojlourenco@gmail.com)
 
