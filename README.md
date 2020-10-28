@@ -1,7 +1,7 @@
 ##  Hi there, I'm Iago! 
 ##### Welcome to my GitHub!
 
-
+Currently studying Computer Engineering at PUC-Campinas, always in search of new knowledge and passionate about technology.
 
  🤔️ &nbsp; What i know: <br/>
 
@@ -11,7 +11,7 @@
 ![Linux](https://img.shields.io/badge/-Linux-f2930d?style=flat&logoColor=fff&logo=linux)&nbsp;
 ![Java](https://img.shields.io/badge/-Java-E9E9E9?style=flat&logoColor=007AAB&logo=java)&nbsp;
 
-🤓️  &nbsp; Currently learning
+🤓️ &nbsp; Currently learning: <br/>
 
 ![Docker](https://img.shields.io/badge/-Docker-099cec?style=flat&logoColor=fff&logo=docker)&nbsp;
 ![JavaScript](https://img.shields.io/badge/-JavaScript-FEAE32?style=flat&logoColor=fff&logo=javascript)&nbsp;
@@ -30,8 +30,9 @@
   </table>
 </center>  
 
-<p align="center">
+### I love to talk, contact me!
 
+<p align="center">
 <a href="https://linkedin.com/in/iagolourenco" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="iagolourenco" height="20" width="20" /></a>
 <a href="https://instagram.com/iaglourenco" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="iaglourenco" height="20" width="20" /></a>
 </p>
