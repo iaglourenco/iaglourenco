@@ -30,9 +30,8 @@ Currently studying Computer Engineering at PUC-Campinas, always in search of new
   </table>
 </center>  
 
-### I love to talk, contact me!
-
 <p align="center">
+<strong>I love to talk, contact me!</strong><br/>
 <a href="https://linkedin.com/in/iagolourenco" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="iagolourenco" height="20" width="20" /></a>
 <a href="https://instagram.com/iaglourenco" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="iaglourenco" height="20" width="20" /></a>
 </p>
