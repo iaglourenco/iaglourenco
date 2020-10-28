@@ -25,7 +25,7 @@ Currently studying Computer Engineering at PUC-Campinas, always in search of new
     <tr>
         <td><img width="300px" align="left" src="https://github-readme-stats.vercel.app/api?username=iaglourenco&theme=dracula"/></td>
         <td><img width="300px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iaglourenco&layout=compact&theme=dracula" /></td>
-<!--         <td><img width="396px" align="left" src="https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco&theme=dracula&layout=compact"/></td> -->
+        <td><img width="396px" align="left" src="https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco&theme=dracula&layout=compact"/></td>
     </tr>   
   </table>
 </center>  
