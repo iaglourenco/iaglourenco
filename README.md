@@ -23,7 +23,7 @@ Currently studying Computer Engineering at PUC-Campinas, always in search of new
 ![Iago's github stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iaglourenco&layout=compact&hide=assembly,shell&langs_count=5)](https://github.com/anuraghazra/github-readme-stats)
 
-[![iago's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco)](https://github.com/anuraghazra/github-readme-stats)
+[![iago's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco&custom_title=Time)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
