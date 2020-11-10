@@ -21,8 +21,10 @@ Currently studying Computer Engineering at PUC-Campinas, always in search of new
 ![Expo](https://img.shields.io/badge/-Expo-000?style=flat&logoColor=fff&logo=expo)&nbsp;
 
 ![Iago's github stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true)
-[![iago's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iaglourenco&layout=compact&hide=assembly,shell&langs_count=5)](https://github.com/anuraghazra/github-readme-stats)
+
+[![iago's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 <p align="center">
