@@ -1,8 +1,6 @@
-##  Hi there, I'm Iago! 
-##### Welcome to my GitHub!
-
-
-## I'm a student, son, and a very curious person! 🧐
+##  Welcome to my GitHub. I'm glad that you're here! 
+### Hi i'm Iago! 
+> A student, son, and a very curious person! 🧐 
 
 ### Languages and tools
 
