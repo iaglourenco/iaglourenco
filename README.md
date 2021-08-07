@@ -1,34 +1,37 @@
 ##  Hi there, I'm Iago! 
 ##### Welcome to my GitHub!
 
-Currently studying Computer Engineering at PUC-Campinas, always in search of new knowledge and passionate about technology.
 
- 🤔️ &nbsp; What i know: <br/>
+## I'm a student, son, and a very curious person! 🧐
+
+### Languages and tools
+
+<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/visual-studio-code/visual-studio-code.png" />
+<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" />
+<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" />
+<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png" />
+<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" />
+<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png" />
+<img align="left" alt="Java" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/java/java.png" />
+<img align="left" alt="Android" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/android/android.png" />
+<img align="left" alt="Kotlin" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/kotlin/kotlin.png" />
+<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
+<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/terminal/terminal.png" />
+
+<br/>
+
+### Connect with me:
+[<img align="left" alt="iagolourenco | LinkedIn" width="22px" src="https://image.flaticon.com/icons/png/512/174/174857.png" />**Iago Lourenço**][linkedin] 
+
+[<img align="left" alt="iaglourenco | Instagram" width="22px" src="https://image.flaticon.com/icons/png/512/174/174855.png" />**@iaglourenco**][instagram]
 
 
-![Python](https://img.shields.io/badge/-Python-369?style=flat&logoColor=fff&logo=python)&nbsp;
-![C](https://img.shields.io/badge/-C/C++-4F33FF?style=flat&logoColor=fff&logo=c)&nbsp;
-![Linux](https://img.shields.io/badge/-Linux-f2930d?style=flat&logoColor=fff&logo=linux)&nbsp;
-![Java](https://img.shields.io/badge/-Java-E9E9E9?style=flat&logoColor=007AAB&logo=java)&nbsp;
+---
 
-🤓️ &nbsp; Currently learning: <br/>
+  [![Iago's github stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true)][profile]
 
-![Docker](https://img.shields.io/badge/-Docker-099cec?style=flat&logoColor=fff&logo=docker)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-FEAE32?style=flat&logoColor=fff&logo=javascript)&nbsp;
-![Node](https://img.shields.io/badge/-Node.js-5B9856?style=flat&logoColor=fff&logo=node.js)&nbsp;
-![ReactJs](https://img.shields.io/badge/-React-18BCEE?style=flat&logoColor=fff&logo=react)&nbsp;
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logoColor=fff&logo=typescript)&nbsp;
-![Expo](https://img.shields.io/badge/-Expo-000?style=flat&logoColor=fff&logo=expo)&nbsp;
+  [![iago's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco)][profile]
 
-![Iago's github stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iaglourenco&layout=compact&hide=assembly,shell&langs_count=5)](https://github.com/anuraghazra/github-readme-stats)
-
-[![iago's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco&custom_title=Time)](https://github.com/anuraghazra/github-readme-stats)
-
-
-
-<p align="center">
-<strong>I love to talk, contact me!</strong><br/>
-<a href="https://linkedin.com/in/iagolourenco" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="iagolourenco" height="20" width="20" /></a>
-<a href="https://instagram.com/iaglourenco" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="iaglourenco" height="20" width="20" /></a>
-</p>
+[profile]: https://github.com/iaglourenco
+[instagram]: https://instagram.com/iaglourenco
+[linkedin]: https://linkedin.com/in/iagolourenco
