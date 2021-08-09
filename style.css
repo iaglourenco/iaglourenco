@@ -1,0 +1,36 @@
+.profile .picture{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+h1{
+    font-family: Nunito;
+}
+h3{
+    font-family: Nunito;
+}
+a{
+    font-family: Nunito;
+}
+
+p{
+    font-family: Nunito;
+}
+
+.profile .social-container{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.profile .social-icon{
+    width: 2rem;
+    margin-right: .5rem;
+}
+
+.profile .social-container .social{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+
+}
