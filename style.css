@@ -1,89 +1,145 @@
-
-:root{
-    background: #283593;
+:root {
+  font-size: 80%;
 }
 
-.profile .picture{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    color: #fff;
-    font-family: Nunito;
+html,
+body {
+  height: 100vh;
+  width: 100vw;
 }
-h3{
-    color: #fff;
-    font-family: Nunito;
-}
-a{
-    font-family: Nunito;
-    text-decoration: none;
-}
-
-p{
-    font-family: Nunito;
+body {
+  background-color: #283593;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+#profile .picture {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+#profile h1 {
+  font-family: Nunito;
+  color: #fff;
+}
+#profile h3 {
+  font-family: Nunito;
+  color: #fff;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  margin: 1.2rem 0 7rem 0;
+}
+.buttons-container a {
+  width: 30rem;
+  height: 3rem;
+  margin-bottom: 1.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 15rem;
+  text-decoration: none;
+  font: 700 1.2rem Nunito;
+  color: #fff;
+  background: #5f5fc4;
 
 
-.buttons-container{
+  transition: background 0.2s;
+}
+.buttons-container a:hover {
+  background: #001064;
+}
+.buttons-container a img {
+  width: 2rem;
+  filter: invert(100%);
+  margin-right: 1.2rem;
+}
+.buttons-container a span {
+  margin-right: 1.2rem;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  background-color: #5f5fc4;
+  justify-content:center;
+}
+
+#info .topic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.2rem
+}
+#info .topic h1{
+  color: #fff;
+  font-family: Nunito;
+}
+
+#info span{
+  color: #fff;
+  font: 300 1rem Nunito; 
+}
+
+#info strong{
+  color: #fff;
+  font: 800 Nunito
+}
+
+@media (min-width: 1100px) {
+  :root {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 1100px) {
+  :root {
+    max-width: 1100px;
+  }
+  .buttons-container {
     display: flex;
     justify-content: center;
-    margin: 3.2rem 0
-}
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3.2rem;
+  }
 
-.buttons-container a{
-    width:18rem;
+  .buttons-container a {
+    width: 30rem;
     height: 3rem;
     margin-right: 1.6rem;
 
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
 
     border-radius: 15rem;
     text-decoration: none;
-    font-family:700 1.2rem Nunito;
+    font-family: 700 1.2rem Nunito;
     color: #fff;
+    background: #5f5fc4;
 
-    transition: background 0.2s
-}
+    transition: background 0.2s;
+  }
 
-.buttons-container a.github{
-    background:#5f5fc4;
-}
-
-.buttons-container a.github:hover{
+  .buttons-container a:hover {
     background: #001064;
-}
-
-.buttons-container a.linkedin{
-    background:#5f5fc4;
-}
-
-.buttons-container a.linkedin:hover{
-    background: #001064;
-}
-
-.buttons-container a.call{
-    background:#5f5fc4;
-}
-
-.buttons-container a.call:hover{
-    background: #001064;
-}
-
-.buttons-container a.mail{
-    background:#5f5fc4;
-}
-
-.buttons-container a.mail:hover{
-    background: #001064;
-}
-
-.buttons-container a img{
+  }
+  .buttons-container a img {
     width: 2rem;
     filter: invert(100%);
+  }
 }
