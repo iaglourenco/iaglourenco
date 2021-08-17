@@ -19,8 +19,9 @@
 <br/>
 
 ### Connect with me:
-  [<img align="center" alt="iagolourenco | LinkedIn" width="22px" src="https://image.flaticon.com/icons/png/512/174/174857.png" />**Iago Lourenço**][linkedin] 
-  [<img align="center" alt="iaglourenco | Instagram" width="22px" src="https://image.flaticon.com/icons/png/512/174/174855.png" />**@iaglourenco**][instagram]
+  [<img align="center" alt="iagolourenco | LinkedIn" width="22px" src="https://image.flaticon.com/icons/png/512/174/174857.png" /> **Iago Lourenço**][linkedin] 
+  
+  [<img align="center" alt="iaglourenco | Instagram" width="22px" src="https://image.flaticon.com/icons/png/512/174/174855.png" /> **@iaglourenco**][instagram]
 
 ---
 
