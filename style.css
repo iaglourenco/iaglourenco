@@ -2,6 +2,26 @@ body{
   margin: 0;
   background-color: #264653;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+body #expand_more{
+  color: #fff;
+  font-size: 35px;
+}
+body #expand_more2{
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+#info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 #profile{
   display: flex;
@@ -10,13 +30,14 @@ body{
   justify-content: center;
 }
 
+
 #profile img{
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 50%;
 }
 
 #profile h1{
-  margin-top: 20px;
+  margin-top: 5px;
   font-family: Nunito;
   font-size: 100px;
   margin-bottom: 0;
@@ -25,7 +46,7 @@ body{
 
 #profile h3{
   margin-top: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   font-family: Nunito;
   font-size: 50px;
   color: #F4A261;
@@ -72,11 +93,13 @@ body{
   font-family: Nunito;
   color: #fff;
   font-size: 65px;
+  margin-top: 30px;
 }
 
 .topic .langs{
   display: grid;
   grid-gap:10px;
+  margin-bottom: 15px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .topic svg{
