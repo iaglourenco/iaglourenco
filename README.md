@@ -19,14 +19,12 @@
 <br/>
 
 ### Connect with me:
-[<img align="left" alt="iagolourenco | LinkedIn" width="22px" src="https://image.flaticon.com/icons/png/512/174/174857.png" />**Iago Lourenço**][linkedin] 
-
-[<img align="left" alt="iaglourenco | Instagram" width="22px" src="https://image.flaticon.com/icons/png/512/174/174855.png" />**@iaglourenco**][instagram]
-
+  [<img align="center" alt="iagolourenco | LinkedIn" width="22px" src="https://image.flaticon.com/icons/png/512/174/174857.png" />**Iago Lourenço**][linkedin] 
+  [<img align="center" alt="iaglourenco | Instagram" width="22px" src="https://image.flaticon.com/icons/png/512/174/174855.png" />**@iaglourenco**][instagram]
 
 ---
 
-  [![Iago's github stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true)][profile]
+  [![Iago's github stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true&count_private=true)][profile]
 
   [![iago's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco)][profile]
 
