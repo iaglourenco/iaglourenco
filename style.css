@@ -34,14 +34,34 @@ body #expand_more2{
 #profile img{
   margin-top: 10px;
   border-radius: 50%;
+  transition: all 0.9s;
+
 }
 
-#profile h1{
+#profile #iago:hover{
+  color: #F4A261;
+  transform: scale(1.1);
+
+}
+
+#profile img:hover{
+  transform: scale(1.1);
+
+}
+#profile #cumpliment {
   margin-top: 5px;
+  display: flex;
+  margin-bottom: 0;
+}
+
+#profile #cumpliment h1{
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: Nunito;
   font-size: 100px;
-  margin-bottom: 0;
   color: #fff;
+  margin-right: 5mm;
+  transition: all 0.2s;
 }
 
 #profile h3{
@@ -71,11 +91,12 @@ body #expand_more2{
   text-decoration: none;
   color: #264653;
   background-color: #2A9D8F;
-  transition: background-color 0.9s
+  transition: all 0.5s
 }
 .button:hover{
   color: #264653;
   background-color: #F4A261;
+  transform: scale(1.2);
 }
 
 .button span{
@@ -132,20 +153,20 @@ body #expand_more2{
 .topic p .institute{
   font-family: Nunito;
   color: #F4A261;
-  width:100vw;
+  width:90vw;
   text-align: center;
   font-size: 30px;
 }
 .topic p .course{
   font-size: 33px;
   text-align: center;
-  width:100vw;
+  width:90vw;
 
   
 }
 .topic p .conclusion{
   font-size: 28px;
   text-align: center;
-  width:100vw;
+  width:90vw;
 
 }
