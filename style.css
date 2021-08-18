@@ -119,6 +119,7 @@ body #expand_more2{
   font-family: Nunito;
   color: #2A9D8F;
   font-size: 40px;
+  
 }
 
 .topic p{
@@ -131,12 +132,20 @@ body #expand_more2{
 .topic p .institute{
   font-family: Nunito;
   color: #F4A261;
-  font-size: 35px;
+  width:100vw;
+  text-align: center;
+  font-size: 30px;
 }
 .topic p .course{
   font-size: 33px;
+  text-align: center;
+  width:100vw;
+
   
 }
 .topic p .conclusion{
   font-size: 28px;
+  text-align: center;
+  width:100vw;
+
 }
