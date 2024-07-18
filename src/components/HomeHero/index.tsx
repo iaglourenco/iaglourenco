@@ -13,8 +13,8 @@ function HomeHero() {
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="comment">//Quem sou eu?</span>
-            <span className="purple">infoUsuario</span> {'\u007B'}
+            <span className="comment">//Minha apresentação</span>
+            <span className="purple">Infos</span> {'\u007B'}
             <div>
               Nome: <span className="blue">Iago,</span>
             </div>
@@ -27,9 +27,9 @@ function HomeHero() {
             {'\u007D'}
           </CodeItem>
           <CodeItem data-aos="zoom-in">
-            <span className="purple">cargoAtual</span> {'\u007B'}
+            <span className="purple">CargoAtual</span> {'\u007B'}
             <div>
-              Função: <span className="blue">Analista de <br>Engenharia de Software,</span>
+              Função: <span className="blue">Analista de SE,</span>
             </div>
             <div>
               Empresa: <span className="blue">SiDi</span>
