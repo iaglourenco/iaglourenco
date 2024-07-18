@@ -54,7 +54,7 @@ export default function Home({ projetos, experiencias }: HomeProps) {
         <meta name="twitter:image:src" content="/ogimage.png" />
         <meta
           property="og:description"
-          content="Graduando em Engenharia de Computação pela Pontifícia Universidade Católica de Campinas, desenvolvo projetos e soluções para a área de TI."
+          content="Graduado em Engenharia de Computação pela Pontifícia Universidade Católica de Campinas, desenvolvo projetos e soluções para a área de TI."
         />
       </Head>
 
@@ -107,6 +107,6 @@ export const getStaticProps: GetStaticProps = async () => {
       projetos,
       experiencias
     },
-    revalidate: 86400
+    revalidate: 3600
   };
 };
