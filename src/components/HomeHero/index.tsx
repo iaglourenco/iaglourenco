@@ -21,12 +21,15 @@ function HomeHero() {
             <div>
               Sobrenome: <span className="blue">Lourenço</span>
             </div>
+            <div>
+              Formação: <span className="blue">Engenheiro da Computação</span>
+            </div>
             {'\u007D'}
           </CodeItem>
           <CodeItem data-aos="zoom-in">
             <span className="purple">CargoAtual</span> {'\u007B'}
             <div>
-              Função: <span className="blue">Estagiário de SE,</span>
+              Função: <span className="blue">Analista de Engenharia de Software,</span>
             </div>
             <div>
               Empresa: <span className="blue">SiDi</span>
