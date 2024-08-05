@@ -2,7 +2,7 @@
 
 ### Hi i'm Iago!
 
-> A student, son, and a very curious person! 🧐
+> A student, computer engineer, son, and a very curious person! 🧐
 
 ### Languages and tools
 
@@ -29,6 +29,8 @@
 [![Iago's github stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true)][profile]
 
 [![iago's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco)][profile]
+
+[![wakatime](https://wakatime.com/badge/user/1bc5ba4a-62d6-4ca0-acba-b1256b6b5046.svg)](https://wakatime.com/@1bc5ba4a-62d6-4ca0-acba-b1256b6b5046)
 
 [profile]: https://github.com/iaglourenco
 [instagram]: https://instagram.com/iaglourenco
