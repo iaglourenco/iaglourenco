@@ -1,37 +1,54 @@
-## Welcome to my GitHub. I'm glad that you're here!
+## Welcome! Glad you're here 👋
 
-### Hi i'm Iago!
+### I'm Iago — Software Engineer & AI Explorer 🤖✨
 
-> A student, computer engineer, son, and a very curious person! 🧐
+> Building smart systems, writing meaningful code, and constantly learning along the way.
 
-### Languages and tools
+I'm a developer with a passion for **Artificial Intelligence**, creative problem-solving, and writing clean, thoughtful software. I love exploring how machines can learn, evolve, and interact with the world — and I’m always looking for better, faster, and more elegant ways to make that happen.
 
-<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/visual-studio-code/visual-studio-code.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="Java" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/java/java.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="Android" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/android/android.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="Kotlin" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/kotlin/kotlin.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" style="padding:10px;border-radius:50%;background-color:white"/>
-<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/terminal/terminal.png" style="padding:10px;border-radius:50%;background-color:white"/>
+From low-level optimization to high-level ideas, I believe in crafting code that’s not only functional, but expressive. I’m especially drawn to projects that combine **intelligence, interactivity**, and **a bit of chaos** — the fun kind.
 
-<br/>
+---
 
-### Connect with me:
+### 🚀 What I value
+- Building intelligent systems with clear purpose  
+- Performance-aware engineering (yes, I care about your milliseconds)  
+- Designing creative, visual tools and experiments  
+- Learning constantly — and sharing what I learn  
 
-[<img align="left" alt="iagolourenco | LinkedIn" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />**Iago Lourenço**][linkedin]
+---
 
-[<img align="left" alt="iaglourenco | Instagram" width="22px" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" />**@iaglourenco**][instagram]
+### 🛠️ Languages & Tools I Work With
 
-[![Iago's github stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true)][profile]
+**Core Languages:**  
+Python · Flutter · Java · JavaScript  
 
-[![iago's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco)][profile]
+**Web & Backend:**  
+FastAPI · Node.js · Firebase
 
-[![wakatime](https://wakatime.com/badge/user/1bc5ba4a-62d6-4ca0-acba-b1256b6b5046.svg)](https://wakatime.com/@1bc5ba4a-62d6-4ca0-acba-b1256b6b5046)
+**Tools & Ecosystem:**  
+Linux · Git · GitHub Actions · VS Code · Docker 
 
-[profile]: https://github.com/iaglourenco
-[instagram]: https://instagram.com/iaglourenco
-[linkedin]: https://linkedin.com/in/iagolourenco
+---
+
+### 📈 Stats & Activity
+
+[![Iago's GitHub Stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true&theme=default)](https://github.com/iaglourenco)
+
+[![Iago's Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco&layout=compact)](https://wakatime.com/@iaglourenco)
+
+[![wakatime](https://wakatime.com/badge/user/1bc5ba4a-62d6-4ca0-acba-b1256b6b5046.svg)](https://wakatime.com/@iaglourenco)
+
+---
+
+### 🌐 Connect with me
+
+[**LinkedIn**](https://linkedin.com/in/iagolourenco)  
+[**Instagram**](https://instagram.com/iaglourenco)
+
+---
+
+### 🧠 Bonus thought:
+
+> Code is never just code.  
+> It’s structure, it's intention, it’s voice — and I write mine with curiosity.
