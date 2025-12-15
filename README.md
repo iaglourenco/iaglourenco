@@ -1,6 +1,6 @@
 ## Welcome! Glad you're here 👋
 
-### I'm Iago — Software Engineer & AI Explorer 🤖✨
+### I'm Iago — Software Engineer
 
 > Building smart systems, writing meaningful code, and constantly learning along the way.
 
@@ -12,22 +12,9 @@ From low-level optimization to high-level ideas, I believe in crafting code that
 
 ### 🚀 What I value
 - Building intelligent systems with clear purpose  
-- Performance-aware engineering (yes, I care about your milliseconds)  
+- Performance-aware engineering  
 - Designing creative, visual tools and experiments  
 - Learning constantly — and sharing what I learn  
-
----
-
-### 🛠️ Languages & Tools I Work With
-
-**Core Languages:**  
-Python · Flutter · Java · JavaScript  
-
-**Web & Backend:**  
-FastAPI · Node.js · Firebase
-
-**Tools & Ecosystem:**  
-Linux · Git · GitHub Actions · VS Code · Docker 
 
 ---
 
@@ -47,8 +34,3 @@ Linux · Git · GitHub Actions · VS Code · Docker
 [**Instagram**](https://instagram.com/iaglourenco)
 
 ---
-
-### 🧠 Bonus thought:
-
-> Code is never just code.  
-> It’s structure, it's intention, it’s voice — and I write mine with curiosity.
