@@ -42,6 +42,10 @@ export interface Project {
   link?: string
   repo?: string
   imageUrl?: string
+  status?: 'active' | 'completed' | 'archived'
+  date?: string
+  featured?: boolean
+  highlights?: string[]
 }
 
 export interface ContactInfo {

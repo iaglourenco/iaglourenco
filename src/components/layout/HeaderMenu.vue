@@ -1,11 +1,14 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { Toolbar, Button } from 'primevue'
+import { computed, ref } from 'vue'
+import Toolbar from 'primevue/toolbar'
+import Button from 'primevue/button'
+import Drawer from 'primevue/drawer'
 import { useDark } from '@/composables/useDark'
 import { useLanguage } from '@/composables/useLanguage'
 
 const { isDark, toggleDark } = useDark()
 const { currentLang, toggleLanguage, labels } = useLanguage()
+const mobileMenuVisible = ref(false)
 
 const menuItems = computed(() => [
   { label: labels.value.about, url: '#about' },
@@ -21,30 +24,35 @@ const scrollToSection = (event: Event, id: string) => {
   if (element) {
     element.scrollIntoView({ behavior: 'smooth' })
   }
+  mobileMenuVisible.value = false
 }
 
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' })
+  mobileMenuVisible.value = false
 }
 </script>
 
 <template>
-  <header class="header-wrapper">
-    <div class="header-container">
-      <Toolbar class="header-toolbar">
+  <header class="w-full flex justify-center px-8 pt-6 sticky top-0 z-1000">
+    <div class="w-full max-w-7xl">
+      <Toolbar class="rounded-xl shadow-lg">
         <template #start>
-          <div class="logo" @click="scrollToTop">
-            <h2>iago.dev</h2>
+          <div
+            class="cursor-pointer select-none transition-opacity hover:opacity-80"
+            @click="scrollToTop"
+          >
+            <h2 class="m-0 text-2xl font-semibold text-primary-500">iago.dev</h2>
           </div>
         </template>
 
         <template #center>
-          <nav class="nav-menu">
+          <nav class="hidden md:flex gap-8 items-center">
             <a
               v-for="item in menuItems"
               :key="item.url"
               :href="item.url"
-              class="nav-link"
+              class="no-underline font-medium py-2 relative transition-colors hover:text-primary-500 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-500 after:transition-all hover:after:w-full"
               @click="scrollToSection($event, item.url)"
             >
               {{ item.label }}
@@ -53,7 +61,7 @@ const scrollToTop = () => {
         </template>
 
         <template #end>
-          <div class="header-actions">
+          <div class="flex gap-2 items-center">
             <Button
               :icon="isDark ? 'pi pi-sun' : 'pi pi-moon'"
               text
@@ -68,88 +76,41 @@ const scrollToTop = () => {
               :aria-label="labels.language"
               @click="toggleLanguage"
             />
+            <Button
+              icon="pi pi-bars"
+              text
+              rounded
+              class="md:hidden!"
+              aria-label="Menu"
+              @click="mobileMenuVisible = true"
+            />
           </div>
         </template>
       </Toolbar>
     </div>
+
+    <!-- Mobile Menu Drawer -->
+    <Drawer v-model:visible="mobileMenuVisible" position="right" class="w-80!">
+      <template #header>
+        <div
+          class="cursor-pointer select-none transition-opacity hover:opacity-80"
+          @click="scrollToTop"
+        >
+          <h2 class="m-0 text-2xl font-semibold text-primary-500">iago.dev</h2>
+        </div>
+      </template>
+
+      <nav class="flex flex-col gap-2">
+        <a
+          v-for="item in menuItems"
+          :key="item.url"
+          :href="item.url"
+          class="no-underline font-medium p-4 rounded-lg transition-all block hover:bg-primary-50 hover:text-primary-500 dark:hover:bg-primary-900/30"
+          @click="scrollToSection($event, item.url)"
+        >
+          {{ item.label }}
+        </a>
+      </nav>
+    </Drawer>
   </header>
 </template>
-
-<style scoped>
-.header-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 1.5rem 2rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.header-container {
-  width: 100%;
-  max-width: 1200px;
-}
-
-.header-toolbar {
-  border-radius: 0.75rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  cursor: pointer;
-  user-select: none;
-}
-
-.logo h2 {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--p-primary-color);
-  transition: opacity 0.2s;
-}
-
-.logo:hover h2 {
-  opacity: 0.8;
-}
-
-.nav-menu {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: var(--p-text-color);
-  font-weight: 500;
-  transition: color 0.2s;
-  padding: 0.5rem 0;
-  position: relative;
-}
-
-.nav-link:hover {
-  color: var(--p-primary-color);
-}
-
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: var(--p-primary-color);
-  transition: width 0.2s;
-}
-
-.nav-link:hover::after {
-  width: 100%;
-}
-
-.header-actions {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-</style>

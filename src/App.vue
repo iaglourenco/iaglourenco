@@ -21,10 +21,6 @@ const { content } = useLanguage()
       <Projects :projects="content.projects" />
       <Contact :contact="content.contact" />
     </main>
-
-    <footer class="py-8 text-center text-sm border-t">
-      <p>&copy; {{ new Date().getFullYear() }} {{ content.profile.name }}. All rights reserved.</p>
-    </footer>
   </div>
 </template>
 
