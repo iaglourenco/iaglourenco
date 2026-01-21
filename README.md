@@ -1,36 +1,48 @@
-## Welcome! Glad you're here 👋
+# .
 
-### I'm Iago — Software Engineer
+This template should help get you started developing with Vue 3 in Vite.
 
-> Building smart systems, writing meaningful code, and constantly learning along the way.
+## Recommended IDE Setup
 
-I'm a developer with a passion for **Artificial Intelligence**, creative problem-solving, and writing clean, thoughtful software. I love exploring how machines can learn, evolve, and interact with the world — and I’m always looking for better, faster, and more elegant ways to make that happen.
+[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-From low-level optimization to high-level ideas, I believe in crafting code that’s not only functional, but expressive. I’m especially drawn to projects that combine **intelligence, interactivity**, and **a bit of chaos** — the fun kind.
+## Recommended Browser Setup
 
----
+- Chromium-based browsers (Chrome, Edge, Brave, etc.):
+  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
+- Firefox:
+  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-### 🚀 What I value
-- Building intelligent systems with clear purpose  
-- Performance-aware engineering  
-- Designing creative, visual tools and experiments  
-- Learning constantly — and sharing what I learn  
+## Type Support for `.vue` Imports in TS
 
----
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-### 📈 Stats & Activity
+## Customize configuration
 
-[![Iago's GitHub Stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true&theme=default)](https://github.com/iaglourenco)
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-[![Iago's Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=iaglourenco&layout=compact)](https://wakatime.com/@iaglourenco)
+## Project Setup
 
-[![wakatime](https://wakatime.com/badge/user/1bc5ba4a-62d6-4ca0-acba-b1256b6b5046.svg)](https://wakatime.com/@iaglourenco)
+```sh
+pnpm install
+```
 
----
+### Compile and Hot-Reload for Development
 
-### 🌐 Connect with me
+```sh
+pnpm dev
+```
 
-[**LinkedIn**](https://linkedin.com/in/iagolourenco)  
-[**Instagram**](https://instagram.com/iaglourenco)
+### Type-Check, Compile and Minify for Production
 
----
+```sh
+pnpm build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+pnpm lint
+```
