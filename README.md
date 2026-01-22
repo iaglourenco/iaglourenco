@@ -11,10 +11,11 @@ From low-level optimization to high-level ideas, I believe in crafting code that
 ---
 
 ### 🚀 What I value
-- Building intelligent systems with clear purpose  
-- Performance-aware engineering  
-- Designing creative, visual tools and experiments  
-- Learning constantly — and sharing what I learn  
+
+- Building intelligent systems with clear purpose
+- Performance-aware engineering
+- Designing creative, visual tools and experiments
+- Learning constantly — and sharing what I learn
 
 ---
 
@@ -30,7 +31,7 @@ From low-level optimization to high-level ideas, I believe in crafting code that
 
 ### 🌐 Connect with me
 
-[**LinkedIn**](https://linkedin.com/in/iagolourenco)  
+[**LinkedIn**](https://linkedin.com/in/iagolourenco)
 [**Instagram**](https://instagram.com/iaglourenco)
 
 ---
