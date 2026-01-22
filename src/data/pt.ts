@@ -6,7 +6,7 @@ export const pt: CVData = {
     role: 'Engenheiro de Software',
     location: 'Brasil',
     email: 'iagojlourenco@gmail.com',
-    avatarUrl: 'https://avatars.githubusercontent.com/u/24625361?v=4',
+    avatarUrl: 'https://avatars.githubusercontent.com/u/24625361?v=5',
     summary:
       'Engenheiro com interesse em transformar desafios em soluções práticas e aplicáveis. Combino uma base sólida em desenvolvimento de software com experiência em auditoria de processos de desenvolvimento, sempre buscando melhorar a qualidade, a eficiência e os resultados.',
     links: [
