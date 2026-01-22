@@ -166,7 +166,7 @@ export const en: CVData = {
       repo: 'https://github.com/iaglourenco/CSD',
       status: 'archived',
       date: '2022',
-      link: 'https://github.io/iaglourenco/CSD/',
+      link: 'https://iaglourenco.github.io/CSD/',
       highlights: [
         'Lexical, syntactic, and semantic analysis',
         'Code generation for virtual machine',
