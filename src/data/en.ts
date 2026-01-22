@@ -5,7 +5,7 @@ export const en: CVData = {
     name: 'Iago Lourenço',
     role: 'Software Engineer',
     location: 'Brazil',
-    avatarUrl: 'https://avatars.githubusercontent.com/u/24625361?v=4',
+    avatarUrl: 'https://avatars.githubusercontent.com/u/24625361?v=5',
     email: 'iagojlourenco@gmail.com',
     summary:
       'A Engineer passionate about transforming challenges into innovative, real-world solutions. I combine a strong foundation in software development with experience in auditing development processes, always aiming to improve quality, efficiency, and outcomes.',
