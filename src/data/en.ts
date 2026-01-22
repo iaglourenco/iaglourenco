@@ -218,7 +218,7 @@ export const en: CVData = {
     },
   ],
   contact: {
-    email: 'mailto:iagojlourenco@gmail.com',
+    email: 'iagojlourenco@gmail.com',
     message: 'Feel free to reach out for collaborations or opportunities.',
     linkedin: 'https://linkedin.com/in/iagolourenco',
     github: 'https://github.com/iaglourenco',
