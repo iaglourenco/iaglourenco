@@ -3,12 +3,26 @@ import type { Project } from '@/types'
 import Section from '@/components/common/CommonSection.vue'
 import { useLanguage } from '@/composables/useLanguage'
 import { Button } from 'primevue'
+import { computed } from 'vue'
 
-defineProps<{
+const props = defineProps<{
   projects: Project[]
 }>()
 
 const { labels, currentLang } = useLanguage()
+
+const sortedProjects = computed(() => {
+  const sorted = [...props.projects]
+
+  return sorted.sort((a, b) => {
+    if (a.featured === b.featured) {
+      const dateA = a.date ? parseInt(a.date) : 0
+      const dateB = b.date ? parseInt(b.date) : 0
+      return dateB - dateA
+    }
+    return a.featured ? -1 : 1
+  })
+})
 
 const getStatusLabel = (status?: string) => {
   if (!status) return ''
@@ -50,7 +64,7 @@ const getStatusColor = (status?: string) => {
     <!-- Projects Grid -->
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
       <article
-        v-for="project in projects"
+        v-for="project in sortedProjects"
         :key="project.title"
         :class="[
           'group relative rounded-2xl overflow-hidden border border-surface-200 dark:border-surface-700',

@@ -42,7 +42,7 @@ const scrollToTop = () => {
             class="cursor-pointer select-none transition-opacity hover:opacity-80"
             @click="scrollToTop"
           >
-            <h2 class="m-0 text-2xl font-semibold text-primary-500">iago.dev</h2>
+            <h2 class="m-0 text-2xl font-semibold text-primary-500">iago</h2>
           </div>
         </template>
 
@@ -96,7 +96,7 @@ const scrollToTop = () => {
           class="cursor-pointer select-none transition-opacity hover:opacity-80"
           @click="scrollToTop"
         >
-          <h2 class="m-0 text-2xl font-semibold text-primary-500">iago.dev</h2>
+          <h2 class="m-0 text-2xl font-semibold text-primary-500">iago</h2>
         </div>
       </template>
 

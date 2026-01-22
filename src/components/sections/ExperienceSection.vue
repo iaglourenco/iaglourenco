@@ -4,12 +4,28 @@ import Section from '@/components/common/CommonSection.vue'
 import Card from 'primevue/card'
 import Tag from 'primevue/tag'
 import { useLanguage } from '@/composables/useLanguage'
+import { computed } from 'vue'
 
-defineProps<{
+const props = defineProps<{
   experience: Experience[]
 }>()
 
 const { labels } = useLanguage()
+
+const extractYear = (period: string): number => {
+  // Se contém "Present", retorna um valor muito alto para ser considerado o mais recente
+  if (period.toLowerCase().includes('present')) {
+    return 9999
+  }
+  // Extrai o primeiro ano do período (ex: "2021 - 2023" -> 2021, "2025" -> 2025)
+  const match = period.match(/(\d{4})/)
+  return match && match[1] ? parseInt(match[1]) : 0
+}
+
+const sortedExperience = computed(() => {
+  const sorted = [...props.experience]
+  return sorted.sort((a, b) => extractYear(b.period) - extractYear(a.period))
+})
 </script>
 
 <template>
@@ -30,7 +46,7 @@ const { labels } = useLanguage()
 
         <!-- Lista de experiências -->
         <div class="space-y-6 md:space-y-8">
-          <div v-for="(item, index) in experience" :key="index" class="relative md:pl-16">
+          <div v-for="(item, index) in sortedExperience" :key="index" class="relative md:pl-16">
             <!-- Marcador (badge) - desktop apenas -->
             <div
               class="hidden md:flex absolute left-0 items-center justify-center w-12 h-12 rounded-full bg-linear-to-br from-primary-500 to-primary-600 dark:from-primary-600 dark:to-primary-700 shadow-lg shadow-primary-500/30 dark:shadow-primary-900/50 z-10"
