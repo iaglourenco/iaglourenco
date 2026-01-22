@@ -20,7 +20,7 @@ export const en: CVData = {
         label: 'LinkedIn',
         url: 'https://linkedin.com/in/iagolourenco',
         icon: 'pi pi-linkedin',
-        type: 'social',
+        type: 'contact',
       },
     ],
   },
