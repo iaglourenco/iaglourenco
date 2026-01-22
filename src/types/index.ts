@@ -29,6 +29,7 @@ export interface SkillGroup {
 export interface Experience {
   company: string
   role: string
+  type?: 'work' | 'education' | 'other'
   period: string
   location?: string
   description: string

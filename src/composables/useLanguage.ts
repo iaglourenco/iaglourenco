@@ -36,6 +36,9 @@ export function useLanguage() {
           language: 'Language',
           social: 'Social',
           getInTouch: 'Get in Touch',
+          experienceTypeWork: 'Work',
+          experienceTypeEducation: 'Education',
+          experienceTypeOther: 'Other',
         }
       : {
           about: 'Sobre',
@@ -53,6 +56,9 @@ export function useLanguage() {
           language: 'Idioma',
           social: 'Redes Sociais',
           getInTouch: 'Entre em Contato',
+          experienceTypeWork: 'Trabalho',
+          experienceTypeEducation: 'Educação',
+          experienceTypeOther: 'Outro',
         }
   })
 

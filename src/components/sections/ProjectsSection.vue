@@ -157,6 +157,10 @@ const getStatusColor = (status?: string) => {
           <!-- Action Buttons -->
           <div class="flex gap-3 mt-auto pt-4">
             <Button
+              as="a"
+              target="_blank"
+              rel="noopener noreferrer"
+              :href="project.repo"
               v-if="project.repo"
               icon="pi pi-github"
               :variant="project.link ? 'outlined' : 'solid'"
@@ -164,7 +168,11 @@ const getStatusColor = (status?: string) => {
               class="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg border-2 border-surface-300 dark:border-surface-600 font-semibold text-sm hover:border-primary-500 dark:hover:border-primary-500 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-950/30 transition-all duration-200 group/btn"
             />
             <Button
+              as="a"
+              target="_blank"
+              rel="noopener noreferrer"
               v-if="project.link"
+              :href="project.link"
               icon="pi pi-external-link"
               :label="currentLang === 'en' ? 'Demo' : 'Ver'"
             />
