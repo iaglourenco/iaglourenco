@@ -1,8 +1,4 @@
-I'm a developer with a passion for **Artificial Intelligence**, creative problem-solving, and writing clean, thoughtful software. I love exploring how machines can learn, evolve, and interact with the world — and I’m always looking for better, faster, and more elegant ways to make that happen.
-
----
-
-### 📈 Stats & Activity
+# Hi there, I'm Iago!
 
 [![Iago's GitHub Stats](https://github-readme-stats.vercel.app/api?username=iaglourenco&show_icons=true&theme=default)](https://github.com/iaglourenco)
 
